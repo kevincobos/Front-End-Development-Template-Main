@@ -1,0 +1,166 @@
+body{
+    background-color: rgb(164, 172, 164);
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+h1{
+    font-size: 2rem;
+    margin: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h2{
+    font-size: 2rem;
+    margin: 0;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(44, 43, 43);
+    border-style: solid;
+    border-radius: 20px;
+    margin: 1rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 0%;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;    
+    margin-left: 1rem;
+}
+
+nav a{
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+nav a:hover{    
+    animation-name: selectedNavUnderline;
+    animation-duration: 0.5s;
+    color: #ffeec7;        
+    text-decoration: underline;
+}
+
+section {
+    display: flex;
+}
+
+article{
+    flex: 1;
+    background-color: #ffeec7;
+    border-radius: 7%;
+    padding: 1rem;
+    margin: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+}
+
+#introTopSection{
+    display: flex;  
+    margin: 1rem;
+    height: 10rem;
+    width: 100%;
+}
+
+#introTopSection > h1{
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+    position: absolute;
+    text-align: left;
+    margin-left: 1rem;
+    color: white;
+    text-shadow: 5px 5px 7px #000000;
+}
+
+#introTopSection > p{
+    position: absolute;
+    align-self: flex-end;
+    color: rgb(248, 249, 245);
+    text-shadow: 1px 1px 4px #000000;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+#introTopSection img{
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    border-radius: 50px 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+article img{
+    display: block;
+    height: 100xp;
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 5%;
+}
+
+
+footer{
+    display: flex;
+    margin: 1rem;
+}
+
+footer div{
+    flex: 1;
+}
+
+/* The animation code */
+@keyframes selectedNavUnderline {
+    0% {
+        color: #ffeec7;        
+        text-decoration: underline;
+    }
+
+    20% {
+        color:  #f5ad84; 
+        text-decoration: underline;
+    }   
+
+    50% {
+        color:  #b16161;
+        text-decoration: underline;
+    }
+
+    100% {
+        color: #ffeec7;          
+        text-decoration: underline;
+    }
+}
+  
+
+
+
+
+
+
+  
