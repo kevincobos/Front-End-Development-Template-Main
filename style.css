@@ -136,6 +136,10 @@ footer div{
     flex: 1;
 }
 
+footer div > p{
+    text-align: right;
+}
+
 /* The animation code */
 @keyframes selectedNavUnderline {
     0% {
